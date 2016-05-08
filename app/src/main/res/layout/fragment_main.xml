@@ -9,9 +9,10 @@
     tools:context="io.github.jjwtan.sunshine.app.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ListView
+        android:id="@+id/listview_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:text="Hello World!" />
 
 </RelativeLayout>
